@@ -1,0 +1,32 @@
+{
+  "name": "axa-backend",
+  "version": "1.0.0",
+  "description": "Como compañía de seguros, se nos ha pedido que desarrollemos una aplicación que administre alguna información sobre nuestras pólizas de seguro y clientes de la compañía. Para hacer eso, nosotros tenemos dos servicios que proporcionan todos los datos que necesitamos:",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node .",
+    "debug": "node --inspect-brk src/logic/ --runInBand",
+    "test": "jest",
+    "test-debug": "node --inspect-brk node_modules/.bin/jest --runInBand"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "es6-promise": "^4.2.8",
+    "express": "^4.17.1",
+    "isomorphic-fetch": "^2.2.1",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "jest": "^24.9.0",
+    "prettier": "^1.18.2"
+  }
+}
